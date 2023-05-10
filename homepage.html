@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home Page</title>
+    <title>Sign In</title>
 
     <!-- FAVICON START -->
     <link rel="icon" href="images/bulsu.png" type="image/x-icon" />
@@ -26,59 +26,153 @@
     <!-- TAILWIND IMPLEMENTATION START -->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- TAILWIND IMPLEMENTATION END -->
+
+    <!-- FONT STYLE LINK -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- FONT STLE IMPLEMENTATION -->
+    <style>
+      * {
+        font-family: "Poppins", sans-serif;
+      }
+    </style>
   </head>
-  <body>
-    <nav class="navbar">
-      <div class="container-fluid">
-        <!-- Left logo and text -->
-        <div class="navbar-brand">
-          Left Text
-          <img
-            src="images/bulsu.png"
-            alt="left logo"
-            class="d-inline-block align-text-top me-2"
-          />
-          Left Text
-        </div>
-
-        <!-- Toggle button for collapsed menu on small screens -->
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <!-- Right logo and text -->
-        <div class="navbar-brand ms-auto">
-          Right Text
-          <img
-            src="images/bulsu.png"
-            alt="right logo"
-            class="d-inline-block align-text-top ms-2"
-          />
-        </div>
-
-        <!-- Collapsed menu content -->
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Features</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Pricing</a>
-            </li>
-          </ul>
-        </div>
+  <body class="bg-black text-white">
+    <div
+      class="container-fluid lg:px-[10%] md:px-[8%] sm:px-[6%] xs:px-[4%] flex justify-between items-center py-4 mb-4"
+    >
+      <div class="flex justify-start align-center items-center space-x-[5%]">
+        <img src="images/bulsu.png" alt="" class="lg:w-16 md:w-14 w-12" />
+        <h1 class="lg:text-xl md:text-xl sm:text-lg font-semibold">BulSUan</h1>
       </div>
-    </nav>
+      <div class="flex justify-end items-center space-x-[7%]">
+        <img src="images/man.png " alt="" class="w-12" />
+        <h1 class="lg:text-md md:text-sm sm:text-xs text-xs">Itsmekyo</h1>
+      </div>
+    </div>
+    <!-- CONTENT -->
+    <div class="container-fluid px-[10%]">
+      <div>
+        <!-- CARD START -->
+        <div
+          class="card lg:w-[60%] rounded-xl bg-[#1A1A1B] text-white pb-[.5%] mb-[1%]"
+        >
+          <div class="card-body space-y-[3%]">
+            <div class="flex space-x-[1.5%] items-center">
+              <img src="images/man.png" alt="" class="lg:w-14 md:w-10 w-10" />
+              <div>
+                <h1 class="lg:text-lg font-semibold md:text-sm text-xs">
+                  IamJows
+                </h1>
+                <h1 class="text-xs font-light">May 2, 2023 - 5:00pm</h1>
+              </div>
+            </div>
+            <h1 class="text-lg font-semibold">Graduation is Coming!!</h1>
+            <p class="text-md font-light truncate">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy. text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book. Lorem Ipsum is
+              simply dummy text of the printing and typesetting industry. Lorem
+              Ipsum has been the industry's standard dummy. text ever since the
+              1500s, when an unknown printer took a galley of type and scrambled
+              it to make a type specimen book.
+            </p>
+
+            <img
+              src="images/bulsuu.jpg"
+              class="card-img-bottom w-[50%] mt-[2%] rounded-xl"
+              alt="..."
+            />
+
+            <div>
+              <a href="#"><h1 class="font-semibold text-lg">See more...</h1></a>
+            </div>
+          </div>
+        </div>
+        <!-- CARD END -->
+        <!-- CARD START -->
+        <div
+          class="card lg:w-[60%] rounded-xl bg-[#1A1A1B] text-white pb-[.5%] mb-[1%]"
+        >
+          <div class="card-body space-y-[3%]">
+            <div class="flex space-x-[1.5%] items-center">
+              <img src="images/man.png" alt="" class="lg:w-14 md:w-10 w-10" />
+              <div>
+                <h1 class="lg:text-lg font-semibold md:text-sm text-xs">
+                  IamJows
+                </h1>
+                <h1 class="text-xs font-light">May 2, 2023 - 5:00pm</h1>
+              </div>
+            </div>
+            <h1 class="text-lg font-semibold">Graduation is Coming!!</h1>
+            <p class="text-md font-light truncate">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy. text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book. Lorem Ipsum is
+              simply dummy text of the printing and typesetting industry. Lorem
+              Ipsum has been the industry's standard dummy. text ever since the
+              1500s, when an unknown printer took a galley of type and scrambled
+              it to make a type specimen book.
+            </p>
+
+            <img
+              src="images/bulsuu.jpg"
+              class="card-img-bottom w-[50%] mt-[2%] rounded-xl"
+              alt="..."
+            />
+
+            <div>
+              <a href="#"><h1 class="font-semibold text-lg">See more...</h1></a>
+            </div>
+          </div>
+        </div>
+        <!-- CARD END -->
+        <!-- CARD START -->
+        <div
+          class="card lg:w-[60%] rounded-xl bg-[#1A1A1B] text-white pb-[.5%] mb-[1%]"
+        >
+          <div class="card-body space-y-[3%]">
+            <div class="flex space-x-[1.5%] items-center">
+              <img src="images/man.png" alt="" class="lg:w-14 md:w-10 w-10" />
+              <div>
+                <h1 class="lg:text-lg font-semibold md:text-sm text-xs">
+                  IamJows
+                </h1>
+                <h1 class="text-xs font-light">May 2, 2023 - 5:00pm</h1>
+              </div>
+            </div>
+            <h1 class="text-lg font-semibold">Graduation is Coming!!</h1>
+            <p class="text-md font-light truncate">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy. text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book. Lorem Ipsum is
+              simply dummy text of the printing and typesetting industry. Lorem
+              Ipsum has been the industry's standard dummy. text ever since the
+              1500s, when an unknown printer took a galley of type and scrambled
+              it to make a type specimen book.
+            </p>
+
+            <img
+              src="images/bulsuu.jpg"
+              class="card-img-bottom w-[50%] mt-[2%] rounded-xl"
+              alt="..."
+            />
+
+            <div>
+              <a href="#"><h1 class="font-semibold text-lg">See more...</h1></a>
+            </div>
+          </div>
+        </div>
+        <!-- CARD END -->
+      </div>
+    </div>
   </body>
 </html>
