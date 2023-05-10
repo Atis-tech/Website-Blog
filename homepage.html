@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Page</title>
+
+    <!-- FAVICON START -->
+    <link rel="icon" href="images/bulsu.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="images/bulsu.png" type="image/x-icon" />
+    <!-- FAVICON END -->
+
+    <!-- BOOTSTRAP LINK START -->
+    <!-- CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css"
+    />
+    <!-- JQUERY -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- JAVASCRIPT -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.min.js"></script>
+    <!-- BOOTSTRAP LINK END -->
+
+    <!-- TAILWIND IMPLEMENTATION START -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- TAILWIND IMPLEMENTATION END -->
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="container-fluid">
+        <!-- Left logo and text -->
+        <div class="navbar-brand">
+          Left Text
+          <img
+            src="images/bulsu.png"
+            alt="left logo"
+            class="d-inline-block align-text-top me-2"
+          />
+          Left Text
+        </div>
+
+        <!-- Toggle button for collapsed menu on small screens -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Right logo and text -->
+        <div class="navbar-brand ms-auto">
+          Right Text
+          <img
+            src="images/bulsu.png"
+            alt="right logo"
+            class="d-inline-block align-text-top ms-2"
+          />
+        </div>
+
+        <!-- Collapsed menu content -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </body>
+</html>
