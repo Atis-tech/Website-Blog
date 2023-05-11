@@ -46,7 +46,9 @@
     <div
       class="container-fluid d-flex min-vh-100 justify-content-center align-items-center bg-black text-white"
     >
-      <div class="row w-65 bg-[#] space-x-[10%]">
+      <div
+        class="flex lg:flex-row md:flex-row sm:flex-col flex-col w-65 bg-[#] space-x-[10%]"
+      >
         <div class="col pt-[7%]">
           <h1 class="text-3xl font-semibold mb-[2%]">Create new account</h1>
           <h1 class="text-md font-light mb-[3%]">Please enter your details</h1>
@@ -106,15 +108,17 @@
           </h1>
         </div>
         <div
-          class="col d-flex flex-column justify-content-start align-items-start"
+          class="col d-flex flex-column justify-content-start align-items-start mt-4"
         >
           <div class="space-y-[5%]">
-            <div class="flex justify-start items-center space-x-[5%]">
+            <div
+              class="lg:flex md:flex sm:hidden hidden justify-start items-center space-x-[5%]"
+            >
               <img src="images/bulsu.png" alt="" class="w-[40%]" />
               <h1 class="text-5xl text-semibold">BulSUan</h1>
             </div>
 
-            <div class="space-y-[5%] pl-[9%]">
+            <div class="space-y-[5%] lg:pl-[9%] md:pl-[9%] pl-[0%]">
               <h1 class="text-xl font-light">
                 Welcome to the
                 <span class="font-semibold text-[#EB9732]"

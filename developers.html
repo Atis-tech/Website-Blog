@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+
+    <!-- FAVICON START -->
+    <link rel="icon" href="images/bulsu.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="images/bulsu.png" type="image/x-icon" />
+    <!-- FAVICON END -->
+
+    <!-- BOOTSTRAP LINK START -->
+    <!-- CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css"
+    />
+    <!-- JQUERY -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- JAVASCRIPT -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.min.js"></script>
+    <!-- BOOTSTRAP LINK END -->
+
+    <!-- TAILWIND IMPLEMENTATION START -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- TAILWIND IMPLEMENTATION END -->
+
+    <script src="https://unpkg.com/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="https://unpkg.com/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- FONT STYLE LINK -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- FONT STLE IMPLEMENTATION -->
+    <style>
+      * {
+        font-family: "Poppins", sans-serif;
+      }
+    </style>
+
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  </head>
+  <body class="bg-black text-white">
+    <div
+      class="container-fluid lg:px-[10%] md:px-[8%] sm:px-[6%] xs:px-[4%] flex justify-between items-center pt-4 lg:mb-4 md:mb-4 sm:mb-4 xs:mb-2 pb-4"
+    >
+      <a href="homepage.html"
+        ><div class="flex justify-start align-center items-center space-x-[5%]">
+          <img src="images/bulsu.png" alt="" class="lg:w-16 md:w-14 w-12" />
+          <h1 class="lg:text-xl md:text-xl sm:text-lg font-semibold">
+            BulSUan
+          </h1>
+        </div>
+      </a>
+      <div
+        class="flex items-center lg:space-x-20 md:space-x-16 sm:space-x-12 space-x-8"
+      >
+        <div class="flex space-x-20">
+          <!-- DEVELOPER BUTTON -->
+          <a href="developers.html">
+            <button
+              class="font-semibold bg-[#272729] p-2 rounded-lg lg:text-lg md:text-md sm:text-sm text-xs"
+            >
+              DEVELOPERS
+            </button>
+          </a>
+        </div>
+        <div class="dropdown">
+          <a
+            class="dropdown-toggle flex justify-end items-center space-x-[7%]"
+            href="#"
+            role="button"
+            id="dropdownMenuLink"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            <img
+              src="images/id pic.png"
+              alt=""
+              class="lg:w-12 md:w-10 sm:w-8 w-8 rounded-circle"
+            />
+            <h1 class="lg:text-md md:text-sm sm:text-xs text-xs">Itsmekyo</h1>
+          </a>
+
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <li>
+              <a class="dropdown-item" href="user.html">
+                <img src="images/" alt="" />
+                Account
+              </a>
+            </li>
+            <li><a class="dropdown-item" href="sign-in.html">Log Out</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- CONTENT START -->
+    <div class="container-fluid lg:px-[12%] md:px-[10%] sm:px-[8%] px-[6%]">
+      <div>
+        <div class="container">
+          <h1 class="my-4 text-3xl text-semibold text-center">
+            Meet the Developers
+          </h1>
+          <h1 class="mb-4 mx-8">
+            At our company, we are proud to work with some of the most talented
+            and innovative developers in the industry. Our developers are
+            dedicated to creating exceptional websites and applications that not
+            only meet our clients' needs but exceed their expectations.
+          </h1>
+          <h1 class="mb-4 mx-8">
+            With a keen eye for design and a deep understanding of the latest
+            technologies and programming languages, our developers are committed
+            to delivering high-quality work on time and within budget. They are
+            passionate about their craft and always stay up-to-date with the
+            latest trends and best practices in web development.
+          </h1>
+          <h1 class="mb-4 mx-8">
+            We believe that our developers are the backbone of our company, and
+            we are grateful for their hard work, dedication, and creativity.
+            They are an integral part of our team, and we are fortunate to have
+            such a talented group of professionals on board.
+          </h1>
+          <div class="row">
+            <!-- Use a loop to create a card for each developer -->
+            <div class="col-md-4 mb-4">
+              <div class="card bg-[#272729]">
+                <img src="images/id pic.png" class="card-img-top" alt="..." />
+                <div class="card-body text-center">
+                  <h5 class="card-title font-semibold text-xl">
+                    Ryan Khyle N. Dela Cruz
+                  </h5>
+                  <p class="card-text">khyledelaacruz@gmail.com</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-4">
+              <div class="card bg-[#272729]">
+                <img src="images/jeff.png" class="card-img-top" alt="..." />
+                <div class="card-body text-center">
+                  <h5 class="card-title font-semibold text-xl">
+                    Jefferson E. Gutierrez
+                  </h5>
+                  <p class="card-text">gutierrezjefferson701@gmail.com</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-4">
+              <div class="card bg-[#272729]">
+                <img src="images/id pic.png" class="card-img-top" alt="..." />
+                <div class="card-body text-center">
+                  <h5 class="card-title font-semibold text-xl">
+                    Joannamarie S. Bautista
+                  </h5>
+                  <p class="card-text">joannamarie.bautista.s@bulsu.edu.ph</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-4">
+              <div class="card bg-[#272729]">
+                <img src="images/1.png" class="card-img-top" alt="..." />
+                <div class="card-body text-center">
+                  <h5 class="card-title font-semibold text-xl">
+                    Mill Chester Pineda
+                  </h5>
+                  <p class="card-text">Pinedamillchester@gmail.com</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-4">
+              <div class="card bg-[#272729]">
+                <img src="images/id pic.png" class="card-img-top" alt="..." />
+                <div class="card-body text-center">
+                  <h5 class="card-title font-semibold text-xl">
+                    Ariel Y. Ramos
+                  </h5>
+                  <p class="card-text">Ariel.Ramos.y@bulsu.edu.ph</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-4">
+              <div class="card bg-[#272729]">
+                <img src="images/id pic.png" class="card-img-top" alt="..." />
+                <div class="card-body text-center">
+                  <h5 class="card-title font-semibold text-xl">
+                    Ryan Khyle N. Dela Cruz
+                  </h5>
+                  <p class="card-text">khyledelaacruz@gmail.com</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Add more cards here for additional developers -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- CONTENT END -->
+    <script>
+      const postText = document.getElementById("post-text");
+      const seeMoreBtn = document.getElementById("see-more-btn");
+
+      if (postText.scrollHeight > postText.clientHeight) {
+        seeMoreBtn.classList.remove("hidden");
+      }
+
+      seeMoreBtn.addEventListener("click", () => {
+        postText.classList.toggle("truncate");
+        seeMoreBtn.innerHTML = postText.classList.contains("truncate")
+          ? "See more..."
+          : "See less";
+      });
+    </script>
+  </body>
+</html>
